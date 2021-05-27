@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" 
+  content="width=, initial-scale=1.0">
+  <title>IlacSepeti</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/e883a35e8a.js" crossorigin="anonymous"></script>
+  <link rel="import" href="./index.html">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar_container">
+      <a href="#home" id="navbar_logo"><img src="./img&gif/capsule_1.png"></a>
+      <a href="#home" id="navbar_name">ILACSEPETI</a>
+  
+<ul class="navbar_menu">
+  <li class="navbar_items">
+    <a href="#home" class="navbar_links" id="homepage">Home</a>
+  </li>
+  <li class="navbar_items">
+    <a href="#about" class="navbar_links" id="homepage">AboutUS</a>
+  </li>
+  <li class="navbar_items">
+    <a href="#faq" class="navbar_links" id="homepage">FAQ</a>
+  </li>
+  <li class="navbar_items">
+    <a href="#contact" class="navbar_links" id="homepage">CONTACT</a>
+  </li>
+</ul>
+    </div>
+  </nav>
+
+    <div class="first_page" id="home">
+      <div class="entry_container">
+        <h1 class="entry_heading">Ilac Sepeti</h1>
+        <p class="entry_description">The medicine you are looking for is at your door in 10 minutes.</p>
+      </div>
+      </div>
+    </div>
+
+    <div class="search-box">
+      <input class="search-txt" id="s-txt" type="text" placeholder="Type to prescription code..">
+      <a class="search-btn" href="#form">
+        <i class="fas fa-search"></i>
+      </a>
+    </div>
+
+<!-- AboutUs section-->
+
+<div class="second" id="about">
+    <h2>How does IlacSepeti work?</h2>
+    <p>How do we deliver prescription medicines to you?</p>
+    <div class="about_wrapper">
+      <div class="about_card"><img src="./img&gif/qr1.png" >
+      <h3>1.Recipe Code</h3>
+      <p>Enter the prescription code stated on the prescription given by your doctor.</p>
+    </div>
+    <div class="about_vector1"><img src="./img&gif/vector1.png" >
+    </div>
+    <div class="about_card"><img src="./img&gif/about_capsule.png" >
+      <h3>2.Enter details</h3>
+      <p>Enter your contact details so we can bring you the medicine you want.</p>
+    </div>
+    <div class="about_vector2"><img src="./img&gif/vector2.png" >
+    </div>
+    <div class="about_card"><img src="./img&gif/motobike.png" >
+      <h3>3.Delivery</h3>
+      <p>The medicine you want is at your door within minutes.</p>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+ 
+<!--Video Section-->
+<div class="third" id="video"></div>
+<div class="ph_video"><video controls="controls" >
+  <source src="./img&gif/pharmacy_video.mp4"></video>
+</div>
+
+<!--FAQ Section-->
+
+<div class="fourth" id="faq">
+  <h1>Frequently Asked Questions</h1> 
+
+<div class="faq">
+<div class="question_item" id="questions">
+  <h3>Do you provide service all over Turkey ?</h3>
+  <svg width="15" height="10" viewBox="0 0 43 25">
+    <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+  </svg>
+  </div>
+  <div class="answer">
+    <p>We serve everywhere that has a pharmacy within 1 kilometer. If there is a pharmacy near you, you can safely request your medicine.</p>
+  </div>   
+</div>
+<div class="faq">
+  <div class="question_item" id="questions">
+    <h3>Is there a lower payment limit for placing an order ?</h3>
+    <svg width="15" height="10" viewBox="0 0 43 25">
+      <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+    </svg>
+    </div>
+    <div class="answer">
+      <p>There is no lower limit for each of your medications. You can safely request your prescription medications from us.</p>
+    </div>   
+  </div>
+  <div class="faq">
+    <div class="question_item" id="questions">
+      <h3>How can I order ?</h3>
+      <svg width="15" height="10" viewBox="0 0 43 25">
+        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+      </svg>
+      </div>
+      <div class="answer">
+        <p>You can place an order after filling your personal and address information by typing your recipe code in the search box on the Home Page.</p>
+      </div>   
+    </div>
+    <div class="faq">
+      <div class="question_item" id="questions">
+        <h3>How does the system work ?</h3>
+        <svg width="15" height="10" viewBox="0 0 43 25">
+          <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+        </svg>
+        </div>
+        <div class="answer">
+          <p>With the prescription code you received from your doctor, you can enter your information through our system and request it from your pharmacy. After we receive your medication, we deliver it to you. You can pay by credit card or at the door.</p>
+        </div>   
+      </div>
+    </div>
+
+
+
+<!--FORM-->
+<form class="contact-sales-form" id="form" method="post" action="index.html">
+  <h4>IlacSepeti Payment Form</h4>
+  
+  <div class="row">
+  <div class="column-6">
+    <fieldset>
+     <legend>Personal Information</legend>
+
+      <label for="first-name">
+        First Name
+      </label>  
+      <input id="first-name" name="first-name" type="text" required>
+      <label for="last-name">
+        Last Name
+      </label>  
+      <input id="last-name" name="last-name" type="text" required>
+
+      <label for="phone-number">
+        Phone Number
+      </label>  
+        <input id="phone-number" name="phone-number" type="tel" required>
+
+    </fieldset>
+    <fieldset>
+      <legend>Adress</legend>
+      <label for="billing-address-line-1">Address</label>
+      <input id="billing-address-line-1" id="billing-address-line-1" type="text" required>
+      <label for="billing-address-city">City</label>
+      <input id="billing-address-city" id="billing-address-city" type="text" required>
+      <label for="billing-address-state">State</label>
+      <input id="billing-address-state" id="billing-address-state" type="text" required>
+      <label for="billing-address-zip-code">Zip Code</label>
+      <input id="billing-address-zip-code" id="billing-address-zip-code" type="text" required>
+    </fieldset>
+  </div>
+  <div class="column-6">   
+   
+    <input type="submit" value="Submit">
+  </div>
+</div>    
+</form>
+
+
+<!--FOOTER-->
+
+
+<footer>
+  <div class="footer-content" id="contact">
+      <h3>Web Programming</h3>
+      <p>Ankara Yıldırım Beyazıt University MIS-301 Web Programming Final Project</p>
+      <ul class="socials">
+          <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/?lang=tr"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="mailto:info@ilacsepeti"><i class="fa fa-envelope-o"></i></a></li>
+          <li><a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="https://tr.linkedin.com/"><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+  </div>
+  <div class="footer-bottom">
+      <p>copyright &copy;2021 IlacSepeti. designed by <span>Arda & Alperen</span></p>
+  </div>
+</footer>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="./ilacsepeti.js"></script>
+
+</body>
+</html>
